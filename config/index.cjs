@@ -42,7 +42,7 @@ festivals: [
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '7eTvUZ0P4S2DR0zsABIyJuHumlSSHqZoFsz2oN5Wwys',
+  CALLBACK_TEMPLATE_ID: 'Z8c30L8_61KPyFt0_ljmkpwatVhmRPVwC7MyyTJJouc',
 
   CALLBACK_USERS: [
     {
