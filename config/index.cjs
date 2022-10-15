@@ -21,12 +21,17 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '单小朋友',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oPQh_6fzJZ9msm41gcTCNN6wqHSM',
+      id: 'oPQh_6TiV7dPk8gGSsEjGgakwK_Y',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '7eTvUZ0P4S2DR0zsABIyJuHumlSSHqZoFsz2oN5Wwys',
+      useTemplateId: 'Z8c30L8_61KPyFt0_ljmkpwatVhmRPVwC7MyyTJJouc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '7-2',
-      //在这删的    
+festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '你', year: '2003', date: '07-02',
+        },
+      ],   
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
